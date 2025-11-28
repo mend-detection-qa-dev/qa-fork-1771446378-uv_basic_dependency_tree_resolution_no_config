@@ -1,0 +1,14 @@
+[project]
+name = "test-basic-deps"
+version = "0.1.0"
+description = "Basic dependency tree test"
+requires-python = ">=3.8"
+dependencies = [
+    "requests>=2.31.0",
+    "click>=8.1.0",
+    "pydantic>=2.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
